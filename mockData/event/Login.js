@@ -1,3 +1,3 @@
 module.exports = {
-  id: 'mockWechatAccount2'
+  id: 'mockWechatAccount3'
 }
