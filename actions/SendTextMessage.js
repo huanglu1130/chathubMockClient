@@ -10,7 +10,7 @@
 module.exports = () => {
   return async actionBody => {
     console.log('i am getting a send text message command', actionBody)
-    return undefined
+    return Promise.reject(new Error('som error'))
   }
 }
 
