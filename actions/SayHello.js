@@ -10,7 +10,7 @@
 
 module.exports = () => {
   return actionBody => {
-    return Promise.reject(new Error('som error'))
+    return undefined
   }
 }
 
