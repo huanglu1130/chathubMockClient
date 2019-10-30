@@ -10,22 +10,9 @@
 
 module.exports = () => {
   return actionBody => {
-    return {
-      "alias": "",
-      "avatar": "",
-      "city": "",
-      "friend": false,
-      "gender": 0,
-      "id": "wxid_eweiw7lkmr4n22",
-      "name": "邱瑞文",
-      "province": "",
-      "signature": "",
-      "type": 1,
-      "weixin": "wxid_eweiw7lkmr4n22"
-    }
+    return Promise.reject(new Error('som error'))
   }
 }
-
 
 /**
  * 应当看  To Chathub ActionReply 中的 event response 来决定return什么东西
